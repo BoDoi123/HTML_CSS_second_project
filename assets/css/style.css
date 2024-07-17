@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --font-regularly: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Khôi phục lại font size mặc định theo rem */
+body {
+    font-size: 1.6rem;
+    font-family: var(--font-regularly);
+}
+
+/* ================> Common <================ */
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.main-content {
+    width: 1170px;
+
+    max-width: calc(100% - 48px);
+
+    margin: 0 auto;
+}
+
+.btn {
+    width: 108px;
+    height: 48px;
+
+    border-radius: 6px;
+    border: 1px solid #1ebfc1;
+
+    color: #1ebfc1;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: normal;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    background: #1ebfc1;
+    color: #fff;
+}
+
+/* ================> Header <================ */
+.header {
+    background: #fff;
+}
+
+.fixed-header {
+    position: sticky;
+
+    left: 0;
+    top: -44px;
+}
+
+.header .menu {
+    padding: 52px 0 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.header .menu .trademark {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header .menu .logo {
+    width: 36.329px;
+    height: 37px;
+}
+
+.header .name-logo {
+    display: flex;
+    align-items: flex-end;
+    gap: 3.5px;
+}
+
+.header .name-logo .dot {
+    width: 5.85px;
+    height: 5.958px;
+
+    border-radius: 50%;
+
+    background: #192122;
+}
+
+.header .nav {
+    margin-left: 18.4%;
+    margin-right: 11.4%;
+}
+
+.header .nav ul {
+    display: flex;
+}
+
+.header .nav a {
+    color: #2f3a3b;
+    font-size: 1.6rem;
+    line-height: normal;
+
+    padding: 8px 19.5px;
+}
+
+.header .nav a:hover,
+a.sign-in:hover {
+    color: #2f3a3b;
+
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.header .block-btn {
+    display: flex;
+    align-items: center;
+}
+
+.header .block-btn .sign-in {
+    color: #494949;
+    font-size: 1.6rem;
+    line-height: normal;
+
+    padding: 12px 24px;
+}

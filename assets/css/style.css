@@ -146,7 +146,7 @@ a.sign-in:hover {
 
 /* ================> Hero <================ */
 .hero .body {
-    padding: 30px 0;
+    padding: 30px 0 59px;
     margin-top: 12px;
 
     display: flex;
@@ -403,4 +403,70 @@ a.sign-in:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* ================> Features <================ */
+.features {
+    padding: 60px 0;
+    margin-top: 90px;
+}
+
+/* Top Features */
+.features .top-features .section {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.features .top-features .title {
+    margin: 18px 0;
+
+    width: 577px;
+
+    color: #0d1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.33; /* 133.333% */
+}
+
+.features .top-features .desc {
+    width: 590px;
+
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+/* Footer Features */
+.features .footer-features {
+    width: 87.5%;
+
+    margin-top: 80px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .footer-features .item:first-child {
+    width: 16.4%;
+}
+
+.features .footer-features .item + .item {
+    width: 21.8%;
+}
+
+.features .footer-features .title {
+    margin-top: 26px;
+
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.features .footer-features .info {
+    margin-top: 16px;
+
+    color: #9da6a5;
+    font-size: 1.6rem;
+    line-height: 1.69; /* 168.75% */
 }

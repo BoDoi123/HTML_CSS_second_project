@@ -665,7 +665,7 @@ a.sign-in:hover {
     text-align-last: center;
 }
 
-/* ================> Countdown <================ */
+/* ================> Feedback <================ */
 .feedback {
     padding: 69px 0;
     margin-top: 130px;
@@ -674,6 +674,8 @@ a.sign-in:hover {
 .feedback .body {
     display: flex;
     justify-content: space-between;
+
+    height: 481px;
 }
 
 /* Block Left */

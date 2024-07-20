@@ -69,6 +69,33 @@ button {
     cursor: pointer;
 }
 
+/* Logo */
+.trademark {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.trademark .logo {
+    width: 36.329px;
+    height: 37px;
+}
+
+.name-logo {
+    display: flex;
+    align-items: flex-end;
+    gap: 3.5px;
+}
+
+.name-logo .dot {
+    width: 5.85px;
+    height: 5.958px;
+
+    border-radius: 50%;
+
+    background: #192122;
+}
+
 /* ================> Header <================ */
 .header {
     background: #fff;
@@ -88,32 +115,6 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.header .menu .trademark {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-.header .menu .logo {
-    width: 36.329px;
-    height: 37px;
-}
-
-.header .name-logo {
-    display: flex;
-    align-items: flex-end;
-    gap: 3.5px;
-}
-
-.header .name-logo .dot {
-    width: 5.85px;
-    height: 5.958px;
-
-    border-radius: 50%;
-
-    background: #192122;
 }
 
 .header .nav {
@@ -873,4 +874,74 @@ a.sign-in:hover {
     color: #fff;
     font-size: 1.8rem;
     font-weight: 600;
+}
+
+/* ================> Footer <================ */
+.footer {
+    padding: 60px 0 0;
+    margin-top: 70px;
+}
+
+footer a {
+    display: block;
+}
+
+/* Menu Social */
+.footer .menu-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer .contact .title {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+
+    margin-bottom: 26px;
+
+    height: 27px;
+
+    display: flex;
+    align-items: center;
+}
+
+.footer .contact a {
+    color: #535353;
+    font-size: 1.6rem;
+
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+}
+
+.footer .contact a + a {
+    margin-top: 18px;
+}
+
+.footer .contact .info i {
+    width: 20px;
+    height: 20px;
+
+    border-radius: 20px;
+    background: #fff;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 9px;
+}
+
+/* Copy Right */
+.footer .copy-right {
+    padding: 80px 0 50px;
+}
+
+.footer .copy-right .desc {
+    color: #b0b5b4;
+    font-size: 1.8rem;
+
+    text-align: center;
 }

@@ -813,3 +813,61 @@ a.sign-in:hover {
     bottom: 29px;
     right: 32px;
 }
+
+/* ================> Admit <================ */
+.admit {
+    margin-top: 61px;
+    height: 272px;
+
+    background: #def6f5;
+
+    display: flex;
+    align-items: center;
+}
+
+.admit .body {
+    padding: 45px 0 57px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 86.8%;
+}
+
+/* Block Left */
+.admit .block-left .title {
+    width: 420px;
+    height: 63px;
+
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.admit .block-left .info {
+    margin-top: 18px;
+
+    width: 397px;
+    height: 27px;
+
+    color: #767e7e;
+    font-size: 1.8rem;
+}
+
+/* Block Right */
+.admit .block-right {
+    width: 18.3%;
+}
+
+.admit .block-right .btn {
+    width: 100%;
+    height: 68px;
+
+    border-radius: 14px;
+    background: #2ac9bf;
+
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+}

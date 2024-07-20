@@ -664,3 +664,152 @@ a.sign-in:hover {
 
     text-align-last: center;
 }
+
+/* ================> Countdown <================ */
+.feedback {
+    padding: 69px 0;
+    margin-top: 130px;
+}
+
+.feedback .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Block Left */
+.feedback .block-left {
+    width: 35.82%;
+}
+
+.feedback .block-left .open-quote {
+    margin-top: 37px;
+}
+
+.feedback .block-left .quote {
+    margin-top: 27px;
+
+    width: 419px;
+
+    color: #5d6564;
+    font-size: 3.2rem;
+    line-height: 1.5; /* 150% */
+}
+
+.feedback .block-left .author {
+    margin-top: 33px;
+
+    color: #767e7e;
+    font-size: 1.6rem;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.feedback .block-left .author em {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.feedback .block-left .author::before {
+    content: "";
+
+    width: 8px;
+    height: 2px;
+
+    background: #070707;
+}
+
+.feedback .block-left .block-btn {
+    margin-top: 52px;
+
+    display: flex;
+
+    gap: 30px;
+}
+
+.feedback .block-btn .btn {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50px;
+    background: #2ac9bf;
+}
+
+/* Block Right */
+.block-right {
+    width: 58.03%;
+
+    position: relative;
+}
+
+.feedback .block-right .ava1 {
+    width: 235px;
+    height: 235px;
+
+    object-fit: cover;
+
+    border-radius: 235px;
+    background: lightgray 50% / cover no-repeat;
+
+    position: absolute;
+    top: 107px;
+    right: 171px;
+}
+
+.feedback .block-right .ava2 {
+    width: 110px;
+    height: 110px;
+
+    object-fit: cover;
+
+    border-radius: 110px;
+    background: lightgray 50% / cover no-repeat;
+
+    position: absolute;
+    right: 0;
+    top: 19px;
+}
+
+.feedback .block-right .ava3 {
+    width: 92px;
+    height: 92px;
+
+    object-fit: cover;
+
+    border-radius: 92px;
+    background: lightgray 50% / cover no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 142px;
+}
+
+.feedback .block-right .ava {
+    width: 78px;
+    height: 78px;
+
+    object-fit: cover;
+
+    border-radius: 78px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.feedback .block-right .ava4 {
+    position: absolute;
+    left: 0;
+    bottom: 145px;
+}
+
+.feedback .block-right .ava5 {
+    position: absolute;
+    bottom: 0;
+    left: 212px;
+}
+
+.feedback .block-right .ava6 {
+    position: absolute;
+    bottom: 29px;
+    right: 32px;
+}
